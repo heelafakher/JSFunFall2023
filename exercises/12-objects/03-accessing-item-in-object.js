@@ -11,3 +11,7 @@ const clothes = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+const h = clothes;
+h.hat= "winterHat";

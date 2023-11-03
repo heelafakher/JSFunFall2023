@@ -4,3 +4,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let myNumber = myFavoratienumber;
+console.log(myNumber);

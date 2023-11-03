@@ -1,4 +1,4 @@
-let str = "Wes Craven"; // e.g.
+//let str = "Wes Craven"; // e.g.
 
 /***
  * Create a constant called "lastCharacter". It should be equal to the last character within "str".
@@ -9,3 +9,6 @@ let str = "Wes Craven"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const lastCharacter = "Wes Craven";
+const lastindex = (lastCharacter.length-1);
+console.log(lastCharacter);
