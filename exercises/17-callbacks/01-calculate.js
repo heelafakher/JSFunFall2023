@@ -39,7 +39,16 @@ const subtract = (num1, num2) => {
 
 const calculate = (num1, num2, callback) => {
   // WRITE YOUR ANSWER IN HERE
+  callback(calculate);
+  const add = (num1,num2) => {
+      return num1 + num2;
+     }
+     const substract = (num1, num2) => {
+      return num1-num2;
+     }
 };
+console.log(calculate(2,6, add));
+console.log(calculate(2,1, subtract));
 
 // Uncomment me to test in Quokka
 // console.log( calculate(5, 10, add) );

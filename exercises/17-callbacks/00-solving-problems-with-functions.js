@@ -1,12 +1,12 @@
 /**
  * Return the function's argument. (This problem is to get you used to the new format.)
- * @param {string} personName
- * @returns {string} personName
- */
+ @param {string} personName
+ @returns {string} personName
 
 const returnAnswer = (personName) => {
-  // WRITE YOUR ANSWER IN HERE
+  newFormat(String, console.log)
 };
+
 
 // Uncomment me to test in Quokka
 // console.log(returnAnswer("Lesley"));

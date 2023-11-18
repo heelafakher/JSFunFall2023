@@ -18,17 +18,52 @@ const createButton = (text) => {
  */
 
 // CHANGE SOMETHING WITH THE FUNCTION DECLARATION
-const createCallToAction = (clickableText) => {
+const createCallToAction = (clickableText,callback) => {
   // CHANGE SOMETHING INSIDE THIS FUNCTION
-  return (
-    "<div>Limited Time: Members Save 30%<br>" +
-    createLink(clickableText) +
-    "</div>"
-  );
+  callback(clickableText);
+    //"<div>Limited Time: Members Save 30%<br>" +
+    //createLink(clickableText) +
+    //"</div>"
+
 };
 
 // CHANGE SOMETHING HERE TOO so that creates a link
-console.log(createCallToAction("Book Now"));
+console.log(createCallToAction,"movie");// e.g.
+const format = (string1, string2) => {
+  return `- ${string1}
+- ${string2}`;
+
+};
+
+/**
+ * In "formatString" function below, use a callback function to format a string.
+ *
+ * Here are the steps you need to take to complete this problem:
+ * - Return and invoke "callback". It should accept the two strings as arguments.
+ *
+ * @example
+ * console.log( formatString("Wash dishes", "Do laundry", format) );
+ * // - Wash Dishes
+ * // - Do laundry
+ *
+ * @param {string} string1
+ * @param {string} string2
+ * @param {function} callback
+ * @returns {string}
+ */
+
+const formatString = (string1, string2, callback) => {
+  // WRITE YOUR ANSWER IN HERE
+  callback(formatString);
+};
+
+
+// Uncomment me to test in Quokka
+ console.log( formatString("Wash dishes", "Do laundry", format) );
+
+// IGNORE THIS BELOW. It is for the tests.
+
+export { formatString };
 
 // IGNORE THIS BELOW. It is for the tests.
 
