@@ -17,3 +17,13 @@ let isBuyingDrink = true; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+if (isBuyingDrink) {
+    total+= isBuyingDrink;
+    console.log("you will get burger plus a drink");
+}
+ else if(total){
+console.log("you just get a burger");
+}
+else
+    console.log("you cant change the cost of Drink");

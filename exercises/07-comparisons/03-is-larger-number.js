@@ -10,3 +10,7 @@ let num2 = 20; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const timein = () =>{
+    console.log("exact time!")
+}
+timein();

@@ -4,3 +4,6 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const year =2023;
+const thisYear = year;
+console.log(thisYear);

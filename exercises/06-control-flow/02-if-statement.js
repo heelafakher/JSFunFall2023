@@ -2,7 +2,7 @@ let subtotal = 50.0; // e.g.
 let tip = 0.2; // e.g.
 
 let total;
-
+//const isCustomerTip = true;
 /**
  * If a customer leaves a tip, change the variable "total"
  * so that it is equal to the subtotal plus the subtotal times the tip.
@@ -13,3 +13,13 @@ let total;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+if (tip) {
+    tip+=total;
+    console.log("customer tip added");
+}
+else (!tip) 
+    tip = 0;
+    total+=subtotal;
+
+console.log("customer didn't add tip");
+
